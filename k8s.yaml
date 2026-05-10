@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: resttemplateserver-hub
-          image: bodibo/resttemplateserver-hub:latest
+          image: bodibo/resttemplateserver-hub:9197fd6371895b75a015b07fbc60fdc8251b3dfb
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
